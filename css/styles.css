@@ -1,0 +1,140 @@
+/*FONT AWESOME*/
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.click-hide {
+    font-family: fontawesome !important;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/*for ios*/
+
+html {
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 95px;
+    height: 95px;
+}
+
+header,
+content {
+    display: inline-block;
+}
+
+/*NAVIGATION*/
+
+.nav {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+.nav a {
+    position: relative;
+
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.nav li a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 3px;
+    background: #7AE2DE;
+    transition: all .2s ease-in-out;
+    transform: scaleX(0);
+}
+
+.custom-menu.navbar .navbar-nav li a:focus,
+.custom-menu.navbar .navbar-nav li a:hover {
+    color: #7AE2DE;
+    text-decoration: none;
+}
+
+.custom-menu .nav li a:hover:after {
+    transform: scaleX(1);
+}
+
+
+ul {
+    margin: 0;
+    padding: 12px;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+/*HIDDEN BLOCK*/
+
+.hide {
+    background: #0066a1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+/*SLIDER*/
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.owl-dot {
+    outline: 0;
+    margin: 0 5px;
+}
+
+.owl-dot:focus {
+    outline: none;
+}
+
+.owl-dot span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 100%;
+    transition: background-color;
+}
+
+.owl-dot.active span {
+    background-color: #0066a1;
+}
