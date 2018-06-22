@@ -16,4 +16,4 @@
   Contacts
   --------
 
-  If you see some bug or malfunctioning, you can write me on petrovskiy.bsuir@gmail.com
+  If you see some bug, you can write me on petrovskiy.bsuir@gmail.com
